@@ -68,7 +68,7 @@ EXPECTED_SHEETS = {
 DEFAULT_ROWS = {
     "simulasi": ["Consumption", "Investment", "Govt. Spending", "Export", "Import", "Unemployment"],
     "makro": ["Inflasi", "Rupiah", "Yield SBN", "ICP", "Nikel", "Coal", "CPO", "Lifting"],
-    "pdb": ["C", "I", "X", "M"],
+    "pdb": ["Konsumsi RT", "Konsumsi LNPRT", "PKP", "PMTB", "Ekspor", "Impor", "Change in Stock", "Statistical Discrepancy", "PDB Agregate"],
     "moneter": ["PUAB", "Kredit", "DPK", "M0", "OMO"],
     "fiskal": ["Pendapatan", "Belanja", "Pembiayaan", "Defisit"],
 }
