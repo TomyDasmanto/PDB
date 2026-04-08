@@ -80,7 +80,7 @@ BLOCK_NOTES = {
     "fiskal": "Tabel komponen fiskal per periode proyeksi.",
 }
 
-PDB_COMPONENTS = ["Konsumsi RT", "Konsumsi LNPRT", "PMTB", "Change in Stocks", "Ekspor", "Impor"]
+PDB_COMPONENTS = ["Konsumsi RT", "Konsumsi LNPRT", "PMTB", "Change in Stocks", "Ekspor", "Impor", "PDB Aggregate"]
 EXCLUDE_GROWTH_ROWS = ["Change in Stocks"]
 
 st.markdown(
