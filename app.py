@@ -702,7 +702,7 @@ with tab_pdb:
             header_fill=PRIMARY,
         )
 
-    st.markdown("<div class='chart-note'>Warna header tabel dibuat seragam. Modebar pada tabel dimatikan agar tidak muncul kotak kamera/fullscreen yang menutupi tabel. Daftar indikator juga dijaga agar tetap lengkap dan berurutan. Baris Change in Stocks dihilangkan dari tabel YoY dan QtQ. Format persen pada tabel pertumbuhan dan grafik pertumbuhan memakai 2 angka desimal. Warna hijau muncul untuk pertumbuhan positif, merah untuk pertumbuhan negatif, dan abu-abu untuk nilai nol/kosong. Kolom Full Year pada QtQ sengaja dibiarkan kosong karena tidak memiliki definisi baku yang setara dengan pertumbuhan tahunan.</div>", unsafe_allow_html=True)
+    st.markdown("<div class='chart-note'></div>", unsafe_allow_html=True)
     selected_components = st.multiselect(
         "Pilih komponen historis yang ingin ditampilkan",
         options=PDB_COMPONENTS,
