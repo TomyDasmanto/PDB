@@ -66,7 +66,7 @@ DEFAULT_ROWS = {
 }
 
 BLOCK_TITLES = {
-    "simulasi": "Hasil Simulasi PDB & Kesejahteraan",
+    "simulasi": "Simulasi PDB & Kesejahteraan",
     "makro": "Blok Makro",
     "pdb": "Accounting / PDB",
     "moneter": "Blok Moneter",
@@ -74,11 +74,11 @@ BLOCK_TITLES = {
 }
 
 BLOCK_NOTES = {
-    "simulasi": "Tabel utama untuk membaca hasil simulasi PDB dan kesejahteraan per periode proyeksi.",
-    "makro": "Tabel indikator makro per periode proyeksi.",
-    "pdb": "Accounting / PDB dibaca otomatis dari file GitHub `dashboard PDB.xlsx`. Selain tabel nominal 2026, ditambahkan juga tabel pertumbuhan Year on Year (YoY) dan Quarter to Quarter (QtQ) dengan struktur periode yang sama. Indikator PDB Aggregate ikut ditampilkan pada tabel dan grafik.",
-    "moneter": "Tabel variabel moneter per periode proyeksi.",
-    "fiskal": "Tabel komponen fiskal per periode proyeksi.",
+    "simulasi": "Hasil simulasi PDB dan kesejahteraan 2026.",
+    "makro": "Indikator Makro.",
+    "pdb": "Outlook PDB 2026.",
+    "moneter": "Variabel Moneter.",
+    "fiskal": "I-Account APBN.",
 }
 
 PDB_COMPONENTS = ["Konsumsi RT", "Konsumsi LNPRT", "PMTB", "Change in Stocks", "Ekspor", "Impor", "PDB Aggregate"]
