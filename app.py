@@ -659,7 +659,7 @@ st.sidebar.markdown("### Sumber Data")
 st.sidebar.info(source_status)
 
 # ---------- Header ----------
-st.title("Dashboard Model Framework")
+st.title("Dashboard Pemantauan PDB")
 st.markdown("---")
 st.markdown(f"<div class='status-box'>{source_status}</div>", unsafe_allow_html=True)
 
@@ -672,7 +672,7 @@ st.markdown('</div>', unsafe_allow_html=True)
 # ---------- Tabs for supporting tables ----------
 tab_makro, tab_pdb, tab_moneter, tab_fiskal = st.tabs([
     "Blok Makro",
-    "Accounting / PDB",
+    "Blok Accounting",
     "Blok Moneter",
     "Blok Fiskal",
 ])
