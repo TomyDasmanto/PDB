@@ -82,7 +82,7 @@ BLOCK_NOTES = {
     "fiskal": "I-Account APBN.",
 }
 
-PDB_COMPONENTS = ["Konsumsi RT", "Konsumsi LNPRT", "PMTB", "Change in Stocks", "Ekspor", "Impor", "PDB Aggregate"]
+PDB_COMPONENTS = ["Konsumsi RT", "Konsumsi LNPRT", "PKP", "PMTB", "Change in Stocks", "Ekspor", "Impor", "PDB Aggregate"]
 EXCLUDE_GROWTH_ROWS = ["Change in Stocks"]
 SIMULASI_FISKAL_ROWS = [
     "Bantuan Pangan",
