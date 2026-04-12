@@ -39,7 +39,6 @@ PERIOD_MAP = {
     "out_tw2": "Outlook Q2",
     "out_tw3": "Outlook Q3",
     "out_tw4": "Outlook Q4",
-    "full_year": "Full Year",
 }
 PERIOD_ORDER = list(PERIOD_MAP.keys())
 
@@ -51,7 +50,6 @@ PDB_COMPONENTS = [
     "Change in Stocks",
     "Ekspor",
     "Impor",
-    "PDB Aggregate",
 ]
 PDB_AGGREGATE_INPUTS = [
     "Konsumsi RT",
