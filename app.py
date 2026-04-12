@@ -674,7 +674,7 @@ def render_simulasi_fiskal_editor() -> pd.DataFrame:
         num_rows="fixed",
         disabled=["indikator"],
         column_config={
-            "indikator": st.column_config.TextColumn("SIMULASI FISKAL", width="medium"),
+            "indikator": st.column_config.TextColumn("Kebijakan", width="medium"),
             "out_tw1": st.column_config.NumberColumn("Q1", format="%.2f", step=0.01, width="small"),
             "out_tw2": st.column_config.NumberColumn("Q2", format="%.2f", step=0.01, width="small"),
             "out_tw3": st.column_config.NumberColumn("Q3", format="%.2f", step=0.01, width="small"),
