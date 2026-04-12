@@ -1,8 +1,7 @@
 # Dashboard Model Framework (Streamlit + Plotly)
 
-Folder ini berisi kerangka awal dashboard Streamlit yang meniru konsep pada gambar:
-
-- Hasil Simulasi PDB & Kesejahteraan (bagian atas)
+Folder ini berisi kerangka awal dashboard Streamlit:
+- Hasil Simulasi PDB & Kesejahteraan
 - Blok Makro (kiri)
 - Accounting / PDB (tengah)
 - Blok Moneter (kanan)
@@ -11,7 +10,6 @@ Folder ini berisi kerangka awal dashboard Streamlit yang meniru konsep pada gamb
 ## File
 - `app.py` -> aplikasi Streamlit utama
 - `requirements.txt` -> dependensi
-- `dashboard_template.xlsx` -> template workbook Excel yang dapat diisi nanti
 
 ## Menjalankan
 ```bash
@@ -30,10 +28,8 @@ Workbook diharapkan memiliki sheet berikut:
 Setiap sheet minimal memiliki kolom:
 - `indikator`
 - `baseline`
-- `out_tw1`
-- `out_tw2`
-- `out_tw3`
-- `out_tw4`
-- `full_year`
+- `output Q1`
+- `output Q1`
+- `output Q1`
+- `output Q1`
 
-Catatan: untuk saat ini dashboard hanya menampilkan 'rumah' / layout dan membaca data mentah dari Excel.
