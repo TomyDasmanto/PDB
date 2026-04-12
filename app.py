@@ -58,7 +58,6 @@ PDB_COMPONENTS = [
     "Change in Stocks",
     "Ekspor",
     "Impor",
-    "PDB Aggregate",
 ]
 PDB_AGGREGATE_INPUTS = [
     "Konsumsi RT",
